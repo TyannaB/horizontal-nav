@@ -1,1 +1,10 @@
-font-family: 'Bevan', cursive;
+html {
+  font-family: 'Bevan', cursive;
+  line-height: 1.5;
+  background-color: #dbd6cf;
+
+}
+
+h1 {
+  background-color: #79756f;
+}
