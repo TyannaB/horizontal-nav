@@ -14,11 +14,11 @@ h1 {
   font-family: "Bevan", sans-serif;
   text-align: center;
   border-color: #595652;
+  padding: .6em;
 }
 
 body {
   text-align: center;
-
 }
 
 nav a:hover {
@@ -28,6 +28,6 @@ color: #f33;
 
 a {
   text-decoration: none;
-  text-align: center;
   color: #fff;
+  background-color: #713837;
 }
