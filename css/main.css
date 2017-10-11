@@ -1,10 +1,32 @@
 html {
-  font-family: 'Bevan', cursive;
+  box-sizing: border-box;
+  font-family: "Bevan", sans-serif;
   line-height: 1.5;
   background-color: #dbd6cf;
+}
 
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 h1 {
   background-color: #79756f;
+  font-family: "Bevan", sans-serif;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+
+}
+
+nav a:hover {
+background-color: #713837;
+color: #f33;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
 }
