@@ -1,33 +1,40 @@
 html {
   box-sizing: border-box;
-  font-family: "Bevan", sans-serif;
+  font-family: 'Bevan', sans-serif;
   line-height: 1.5;
   background-color: #dbd6cf;
+  background-color: #79756f;
+  text-align: center;
+  border-color: #595652;
+  padding: .75em;
 }
+
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
 h1 {
-  background-color: #79756f;
-  font-family: "Bevan", sans-serif;
-  text-align: center;
-  border-color: #595652;
-  padding: .6em;
+  font-family: 'Bevan', sans-serif;
+  color: #fff;
 }
 
 body {
   text-align: center;
+  margin: .3em;
 }
 
 nav a:hover {
-background-color: #713837;
-color: #f33;
+  background-color: #713837;
+  color: #f33;
 }
 
 a {
   text-decoration: none;
   color: #fff;
   background-color: #713837;
+  list-style-type: none;
+  display: inline-block;
+  border-radius: 3px;
+  padding: .5em;
 }
